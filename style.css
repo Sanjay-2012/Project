@@ -1,0 +1,177 @@
+/* banner portion starts */
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 60%;
+    object-fit: cover;
+    position: relative;
+    left: 950px;
+    top: 180px;
+}
+
+.text {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    color: black;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text a {
+    color: gray;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    .carousel-item {
+        height: 670px;
+    }
+
+    .carousel-item img {
+        position: static;
+        width: 50%;
+        height: auto;
+        margin-top: 150px;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text {
+        position: static;
+        padding: 10px;
+        text-align: center;
+    }
+
+}
+
+/* banner portion ends */
+
+/* Card Portion starts*/
+.card {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.car {
+    background-color: pink;
+    height: 200px;
+    align-content: center;
+}
+
+.safe {
+    background-color: aquamarine;
+    height: 200px;
+    align-content: center;
+}
+
+.secure {
+    background-color: rgb(249, 249, 113);
+    height: 200px;
+    align-content: center;
+}
+
+.back {
+    background-color: rgb(35, 241, 35);
+    height: 200px;
+    align-content: center;
+}
+
+/* Card Portion ends*/
+
+/* Images portion starts*/
+.Big-card {
+    background-color: #f9f9f9;
+    border: 1px solid rgb(232, 225, 225);
+    border-radius: 5px;
+    display: grid;
+    width: 100%;
+}
+
+.card-img {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-badge {
+    background-color: blue;
+    color: white;
+    border: 1px solid;
+    border-radius: 7px;
+    width: 60px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 10px;
+}
+
+.card-left {
+    text-align: left;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.star-rating .star {
+    color: gold;
+    font-size: 14px;
+}
+
+.card-price {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.card-right {
+    display: flex;
+    align-items: center;
+}
+
+.add-btn {
+    font-size: 18px;
+    padding: 6px 12px;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+
+
+.add-btn:hover {
+    color: white;
+    background-color: navy;
+}
+
+/* image portion ends */
+
+
+/* Footer portion starts*/
+.a-text a {
+    text-decoration: none;
+}
+
+.footer {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+
+/* Footer portion ends*/
