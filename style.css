@@ -175,3 +175,27 @@
 }
 
 /* Footer portion ends*/
+
+/* shop page css starts*/
+.banner {
+    height: auto;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.banner-text {
+    text-shadow: 2px 2px 5px black;
+}
+
+
+/* search bar */
+.input-group-text i {
+    color: gray;
+}
+
+.custom-dropdown option {
+    background-color: white;
+    color: black;
+}
+
+/* shop page css ends */
